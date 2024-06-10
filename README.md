@@ -1,12 +1,9 @@
 # openFPGALoader
 
-<p align="right">
-  <a title="Documentation" href="https://trabucayre.github.io/openFPGALoader"><img src="https://img.shields.io/website.svg?label=trabucayre.github.io%2FopenFPGALoader&longCache=true&style=flat-square&url=http%3A%2F%2Ftrabucayre.github.io%2FopenFPGALoader%2Findex.html&logo=GitHub"></a><!--
-  -->
-  <a title="'Test' workflow Status" href="https://github.com/trabucayre/openFPGALoader/actions/workflows/Test.yml"><img alt="'Test' workflow Status" src="https://img.shields.io/github/actions/workflow/status/trabucayre/openFPGALoader/Test.yml?branch=master&longCache=true&style=flat-square&label=Test&logo=github%20actions&logoColor=fff"></a><!--
-  -->
-  <a title="Releases" href="https://github.com/trabucayre/openFPGALoader/releases"><img src="https://img.shields.io/github/commits-since/trabucayre/openFPGALoader/latest.svg?longCache=true&style=flat-square&logo=git&logoColor=fff"></a>
+<p align="left">
+<strong>With support for the <a href="https://github.com/s100projects/T35_FPGA_MODULE">S100Computers T35 FPGA Module</a> board and the EFX-JTAG cable by Jeff Wilson.</strong>
 </p>
+<hr>
 
 <p align="center">
   <strong><a href="https://trabucayre.github.io/openFPGALoader/guide/first-steps.html">First steps</a> • <a href="https://trabucayre.github.io/openFPGALoader/guide/install.html">Install</a> • <a href="https://trabucayre.github.io/openFPGALoader/guide/troubleshooting.html">Troubleshooting</a></strong> • <a href="https://trabucayre.github.io/openFPGALoader/guide/advanced.html">Advanced usage</a>
