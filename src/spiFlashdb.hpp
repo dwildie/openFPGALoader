@@ -34,6 +34,19 @@ typedef struct {
 } flash_t;
 
 static std::map <uint32_t, flash_t> flash_list = {
+    {0xc84017, {
+       .manufacturer = "Gigadevice",
+       .model = "GD25Q64 8MiB",
+       .nr_sector = 128,
+       .sector_erase = true,
+       .subsector_erase = true,
+       .has_extended = true,
+       .tb_otp = false,
+       .tb_offset = 0,
+       .tb_register = NONER,
+       .bp_len = 5,
+       .bp_offset = {(1 << 2), (1 << 3), (1 << 4), (1 << 5)}}
+    },
 	{0x010216, {
 		.manufacturer = "spansion",
 		.model = "S25FL064P / EPCS64",

@@ -127,6 +127,8 @@ static std::map <std::string, cable_t> cable_list = {
 	{"usb-blaster",        CABLE_DEF(MODE_USBBLASTER, 0x09Fb, 0x6001                   )},
 	{"usb-blasterII",      CABLE_DEF(MODE_USBBLASTER, 0x09Fb, 0x6810                   )},
 	{"xvc-client",         CABLE_DEF(MODE_XVC_CLIENT, 0x0000, 0x0000                   )},
+    {"jlw-spi-ft2232",     FTDI_SER(0x0403, 0x6010, FTDI_INTF_A, 0x08, 0x8B, 0x00, 0x00)},
+    {"jlw-jtag-ft2232",    FTDI_SER(0x0403, 0x6010, FTDI_INTF_B, 0x08, 0x8B, 0x00, 0x00)},
 #ifdef ENABLE_LIBGPIOD
 	{"libgpiod",           CABLE_DEF(MODE_LIBGPIOD_BITBANG, 0, 0x0000                  )},
 #endif

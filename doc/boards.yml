@@ -674,6 +674,20 @@
   Memory: OK
   Flash: NT
 
+- ID: s100_t35_jtag
+  Description: S100Computers T35 FPGA Module (JTAG Mode)
+  URL: https://github.com/s100projects/T35_FPGA_MODULE
+  FPGA: Efinix Trion T35F400
+  Memory: NA
+  Flash: AS
+
+- ID: s100_t35_spi
+  Description: S100Computers T35 FPGA Module (SPI Mode)
+  URL: https://github.com/s100projects/T35_FPGA_MODULE
+  FPGA: Efinix Trion T35F400
+  Memory: NA
+  Flash: AS
+
 - ID: spartanEdgeAccelBoard
   Description: SeeedStudio Spartan Edge Accelerator Board
   URL: http://wiki.seeedstudio.com/Spartan-Edge-Accelerator-Board

@@ -221,6 +221,17 @@ jlink:
     Description: SEGGER J-Trace PRO Debug Probes
 
 
+jlw-spi-ft2232:
+
+  - Name: EFX-JTAG by Jeff Wilson SPI (ft2232)
+    Description: efinix SPI interface (FTDI2232 interface A)
+
+
+jlw-jtag-ft2232:
+
+  - Name: EFX-JTAG by Jeff Wilson (ft2232)
+    Description: efinix JTAG interface (FTDI2232 interface B)
+
 jtag-smt2-nc:
 
   - Name: jtag-smt2-nc
